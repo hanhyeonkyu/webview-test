@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.headers{
+  background-color: aquamarine;
+  flex: 1;
+  padding: 1rem;
+}
+.contents{
+  background-color: cadetblue;
+  flex: 1;
+  padding: 2rem;
+}
+
+.footer{
+  background-color: yellowgreen;
+  flex: 1;
+  padding: 1rem;
+}
+
+.reqbtn{
+  background: magenta;
+  color: white;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 900;
+  border: 0.5rem solid magenta;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.reqbtn:hover{
+  background-color: rgb(255, 91, 255);
+  border: 0.5rem solid rgb(255, 91, 255);
+}
+
+.reqbtn:active{
+  background-color: rgb(182, 52, 182);
+  border: 0.5rem solid rgb(182, 52, 182);
+}
+
+.reqbtn:focus{
+  outline: none;
+}
